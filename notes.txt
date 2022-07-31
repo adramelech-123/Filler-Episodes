@@ -1,0 +1,1 @@
+This website was built using bootstrap and vanilla javascript for additional functionality.
