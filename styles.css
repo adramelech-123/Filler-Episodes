@@ -1,0 +1,37 @@
+
+/* Carousel -- Height and fixed sizing */
+
+.carousel .carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+/* Darken Carousel images */
+.carousel-item::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.pop-card-img {
+    height: 450px;
+    object-fit: cover;
+}
+
+
+@media (min-width: 768px) {
+    .shows-input {
+      width: 50%;
+    } 
+}

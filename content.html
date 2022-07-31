@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" integrity="sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .type {
+            padding: 3px 10px;
+            border-radius: 10px;
+            color: white;
+            font-size: 0.8rem;
+        }
+
+        .Canon {
+            background-color: green;
+        }
+
+        .Filler {
+            background-color: red;
+        }
+
+        .Partial {
+            background-color: orange;
+        }
+
+        p a , li a{
+            text-decoration: none;
+        }
+
+        p a:hover , li a:hover {
+            color: orange;
+        }
+    </style>
+    <title>Filler Episodes | Content</title>
+</head>
+<body class="bg-light" style="font-family: 'Varela Round', sans-serif;">
+
+         <!-- Navigation -->
+         <nav class="navbar navbar-light bg-warning navbar-expand-lg border-bottom border-dark border-5">
+                <div class="container py-2 px-0">
+                    <a href="index.html" class="navbar-brand text-dark">
+                        <img src="img/Atlassian Icon.svg" alt="">
+                        <span class="fw-bold">Filler Episodes</span>
+                    </a>
+        
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Nav Items -->
+                    <div class="collapse navbar-collapse" id="navmenu">
+                        <ul class="navbar-nav ms-auto text-dark">
+                        <li class="nav-item fs-5 me-4">
+                            <a href="shows.html" class="nav-link">Shows</a>
+                        </li>
+                        <li class="nav-item fs-5 me-4">
+                            <a href="#" class="nav-link">Sign In</a>
+                        </li>
+                        <li class="nav-item fs-5 me-4">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                        </ul>
+                    </div>    
+                </div>
+            </nav>
+
+            <!-- Breadcrumb -->
+            <section class="p-5 ">
+                <nav style="--bs-breadcrumb-divider: '>';">
+                    <ol class="breadcrumb px-5 mx-5">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="shows.html">Shows</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Show Name</li>
+                    </ol>
+                </nav>
+            </section>
+
+        <section class="container justify-content-center my-2" >
+
+
+              <div class="card mb-3 border-light">
+                <img src="img/Bleach-Wallpaper.jpg" class="card-img-top" alt="..." style="height: 300px; object-fit:cover; object-position: 30% top;">
+                <div class="card-body">
+                  <h3 class="card-title">Bleach</h3>
+                  <p class="card-text"><small>Ichigo Kurosaki is an ordinary high schooler—until his family is attacked by a Hollow, a corrupt spirit that seeks to devour human souls. It is then that he meets a Soul Reaper named Rukia Kuchiki, who gets injured while protecting Ichigo's family from the assailant. To save his family, Ichigo accepts Rukia's offer of taking her powers and becomes a Soul Reaper as a result. However, as Rukia is unable to regain her powers, Ichigo is given the daunting task of hunting down the Hollows that plague their town. However, he is not alone in his fight, as he is later joined by his friends—classmates Orihime Inoue, Yasutora Sado, and Uryuu Ishida—who each have their own unique abilities. As Ichigo and his comrades get used to their new duties and support each other on and off the battlefield, the young Soul Reaper soon learns that the Hollows are not the only real threat to the human world.</small>.</p>
+                  <p class="card-text"><small class="text-muted"><b>Total Episodes: </b> 366</small></p>
+                </div>
+              </div>
+
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-hit="all" type="button">Show all episodes</button>
+                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-hit="filler" type="button">Show Filler episodes</button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-hit="canon" type="button">Show Canon episodes</button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-hit="partial" type="button">Partial Filler episodes</button>
+                </div>
+              </nav>
+
+              <table class="table table-striped table-light">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Type</th>
+                  </tr>
+
+                </thead>
+                <tbody class="table-body">
+                  <!-- <tr>
+                    <th scope="row">1</th>
+                    <td>The Day I Became a Shinigami</td>
+                    <td><span class=" type canon">Canon</span></td>
+                  </tr> -->
+
+                </tbody>
+              </table>
+        </section>
+
+
+         <!-- Footer -->
+
+        <footer class="p-5 mt-5 bg-dark text-light text-center">
+            <div class="container">
+                <p class="lead text-muted">Copyright &copy; 2022 Netherscope Inc.</p>
+            </div>
+    
+            <div class="container p-1">
+                <a href="#" style="color: white;"><i class="bi-facebook mx-2" style="font-size: 30px"></i></a>
+                <a href="#" style="color: white;"><i class="bi-instagram mx-2" style="font-size: 30px"></i></a>
+                <a href="#" style="color: white;"><i class="bi-twitter mx-2" style="font-size: 30px"></i></a>  
+            </div>
+        </footer>
+
+
+
+        <!-- Bootsrap JS -->
+        
+        <script>
+
+            // SHOW FILTER BUTTONS
+
+            let filterBtns = document.querySelectorAll('.nav-link')
+            const tableArea = document.querySelector('.table-body')
+
+            let tableData = [
+                {
+                    ep: '1',
+                    title: 'The Day I Became a Shinigami',
+                    type: 'Canon'
+                },
+
+                {
+                    ep: '2',
+                    title: 'The Shinigami Work',
+                    type: 'Canon'
+                },
+
+                {
+                    ep: '3',
+                    title: 'The Older Brothers Wish, the Younger Sisters Wish',
+                    type: 'Filler'
+                },
+
+                {
+                    ep: '4',
+                    title: 'Cursed Parakeet',
+                    type: 'Canon'
+                },
+
+                {
+                    ep: '5',
+                    title: 'Beat the Invisible Enemy!',
+                    type: 'Filler'
+                },
+
+                {
+                    ep: '6',
+                    title: 'Fight to the Death! Ichigo vs. Ichigo',
+                    type: 'Filler'
+                },
+
+                {
+                    ep: '7',
+                    title: 'Penetrate the Center with an Enormous Bombshell?',
+                    type: 'Canon'
+                },
+
+                {
+                    ep: '8',
+                    title: 'Renji, Oath of the Soul! Death Match with Byakuya',
+                    type: 'Partial'
+                },
+
+                {
+                    ep: '9',
+                    title: 'Unbeatable Enemy',
+                    type: 'Partial'
+                }
+            ]
+
+            window.addEventListener('DOMContentLoaded', function(){
+                displayTableData(tableData)
+            })
+
+            function displayTableData (tableItem){
+                let tableRows = tableItem.map(function(row) {
+                    return `
+                    <tr>
+                        <th scope="row">${row.ep}</th>
+                        <td>${row.title}</td>
+                        <td><span class=" type ${row.type}">${row.type}</span></td>
+                    </tr>
+                    `
+                })
+
+                tableRows = tableRows.join('')
+                tableArea.innerHTML = tableRows
+            }
+
+            
+            
+
+            filterBtns.forEach(function(btn) {
+                btn.addEventListener('click', function(e) {
+                    const btnType = e.currentTarget.dataset.hit
+                    
+                    const filteredTable = tableData.filter(function(tableRow){
+                        if (btnType === tableRow.type.toLowerCase()) {
+                            return tableRow
+                        }
+                    })
+
+                    if (btnType === 'all') {
+                        displayTableData(tableData)
+                    }
+
+                    else {
+                        displayTableData(filteredTable)
+                    }
+                    
+                })
+
+            })
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js" integrity="sha512-8Y8eGK92dzouwpROIppwr+0kPauu0qqtnzZZNEF8Pat5tuRNJxJXCkbQfJ0HlUG3y1HB3z18CSKmUo7i2zcPpg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        
+    
+</body>
+</html>
