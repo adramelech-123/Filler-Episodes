@@ -3,6 +3,7 @@
 let filterBtns = document.querySelectorAll('.nav-link')
 const tableArea = document.querySelector('.table-body')
 const cardArea = document.querySelector('.card')
+let crumb = document.querySelector('.showBread')
 
 
 window.addEventListener('DOMContentLoaded', function(){
@@ -42,7 +43,7 @@ function displayShow () {
 
         cardArea.innerHTML = showHeader
         tableArea.innerHTML = row
-
+        crumb.innerHTML = showData[0].name
         
     })
 }
