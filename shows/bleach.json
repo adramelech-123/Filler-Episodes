@@ -1,0 +1,66 @@
+[
+    {
+        "name" : "Bleach",
+        "img" : "./img/Bleach-Wallpaper.jpg",
+        "description": "Ichigo Kurosaki is an ordinary high schooler—until his family is attacked by a Hollow, a corrupt spirit that seeks to devour human souls. It is then that he meets a Soul Reaper named Rukia Kuchiki, who gets injured while protecting Ichigo's family from the assailant. To save his family, Ichigo accepts Rukia's offer of taking her powers and becomes a Soul Reaper as a result. However, as Rukia is unable to regain her powers, Ichigo is given the daunting task of hunting down the Hollows that plague their town. However, he is not alone in his fight, as he is later joined by his friends—classmates Orihime Inoue, Yasutora Sado, and Uryuu Ishida—who each have their own unique abilities. As Ichigo and his comrades get used to their new duties and support each other on and off the battlefield, the young Soul Reaper soon learns that the Hollows are not the only real threat to the human world.",
+        "totalepisodes": 366
+    },
+
+    {
+        "ep": 1,
+        "title" : "The Day I Became a Shinigami",
+        "type" : "Canon"
+    },
+
+    {
+        "ep": 2,
+        "title": "The Shinigami Work",
+        "type": "Canon"
+    },
+
+    {
+        "ep": 3,
+        "title": "The Older Brothers Wish, the Younger Sisters Wish",
+        "type": "Filler"
+    },
+
+    {
+        "ep": 4,
+        "title": "Cursed Parakeet",
+        "type": "Canon"
+    },
+
+    {
+        "ep": 5,
+        "title": "Beat the Invisible Enemy!",
+        "type": "Filler"
+    },
+
+    {
+        "ep": 6,
+        "title": "Fight to the Death! Ichigo vs. Ichigo",
+        "type": "Filler"
+    },
+
+    {
+        "ep": 7,
+        "title": "Penetrate the Center with an Enormous Bombshell?",
+        "type": "Canon"
+    },
+
+    {
+        "ep": 8,
+        "title": "Renji, Oath of the Soul! Death Match with Byakuya",
+        "type": "Partial"
+    },
+
+    {
+        "ep": 9,
+        "title": "Unbeatable Enemy",
+        "type": "Partial"
+    }
+
+    
+
+]
+

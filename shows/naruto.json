@@ -1,0 +1,46 @@
+[
+    {
+        "name" : "Naruto Shippuden",
+        "img" : "./img/Naruto-Shippuuden-1.jpg",
+        "description": "Naruto Shippuden was an anime series that ran from 2007 to 2017. In total 500 episodes of Naruto Shippuden were aired. With a total of 201 reported filler episodes, Naruto Shippuden has a moderate filler percentage of 40%.Set two-and-a-half years after the defection of Sasuke Uchiha, Shippuden continues where Naruto left off. Becoming increasingly powerful; Naruto will stop at nothing to protect his village, save his friend, and put an end to the evil organization known as the Akatsuki.",
+        "totalepisodes": 500
+    },
+
+    {
+        "ep": 1,
+        "title" : "The Jinchuriki of the Sand",
+        "type" : "Canon"
+    },
+
+    {
+        "ep": 2,
+        "title": "The Kazekage Stands Tall",
+        "type": "Partial"
+    },
+
+    {
+        "ep": 3,
+        "title": "Team Kakashi, Deployed",
+        "type": "Filler"
+    },
+
+    {
+        "ep": 4,
+        "title": "Sealing Jutsu: Nine Phantom Dragons",
+        "type": "Canon"
+    },
+
+    {
+        "ep": 5,
+        "title": "Three Minutes Between Life and Death",
+        "type": "Canon"
+    },
+
+    {
+        "ep": 6,
+        "title": "Puppet Fight: 10 vs. 100!",
+        "type": "Filler"
+    }
+  
+]
+

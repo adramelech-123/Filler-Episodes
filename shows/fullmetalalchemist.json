@@ -1,0 +1,57 @@
+﻿[
+    {
+        "name": "Fullmetal Alchemist",
+        "img": "./img/fullmetal.webp",
+        "description": "Fullmetal Alchemist was an anime series that ran from 2003 to 2004. In total 51 episodes of Fullmetal Alchemist were aired. With a total of 3 reported filler episodes, Fullmetal Alchemist has a very low filler percentage of 6%. Set in a fictional universe in which alchemy is one of the most advanced scientific techniques, the story follows the brothers Edward and Alphonse Elric, who are searching for a Philosopher's Stone to restore their bodies after a disastrous failed attempt to bring their mother back to life through alchemy.",
+        "totalepisodes": 51,
+        "ep": "",
+        "title": "",
+        "type": ""
+    },
+    {
+        "name": "",
+        "img": "",
+        "description": "",
+        "totalepisodes": "",
+        "ep": 1,
+        "title": "Those who challenge the sun",
+        "type": "Canon"
+    },
+    {
+        "name": "",
+        "img": "",
+        "description": "",
+        "totalepisodes": "",
+        "ep": 2,
+        "title": "Body of the sanctioned",
+        "type": "Canon"
+    },
+    {
+        "name": "",
+        "img": "",
+        "description": "",
+        "totalepisodes": "",
+        "ep": 3,
+        "title": "Mother",
+        "type": "Canon"
+    },
+    {
+        "name": "",
+        "img": "",
+        "description": "",
+        "totalepisodes": "",
+        "ep": 4,
+        "title": "A Forger's love",
+        "type": "Filler"
+    },
+    {
+        "name": "",
+        "img": "",
+        "description": "",
+        "totalepisodes": "",
+        "ep": 5,
+        "title": "The man with the mechanical arm",
+        "type": "Canon"
+    }
+    
+]
